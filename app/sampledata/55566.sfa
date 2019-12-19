@@ -1,0 +1,100 @@
+{
+  materials: [
+    {
+      name: 'PBR',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: '15096010d896e5901888685d8a9d276def9cbba9',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: '7f86874dc861b1b2f2f187eaae40aeab8ebd2bc7',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: '284224918e2addcb57165177c0c65d9a3ec10a19',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/55566.glb',
+    name: '55566',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      name: '15096010d896e5901888685d8a9d276def9cbba9',
+      pipeline_name: '*0',
+    },
+    {
+      name: '284224918e2addcb57165177c0c65d9a3ec10a19',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '*1',
+    },
+    {
+      name: '7f86874dc861b1b2f2f187eaae40aeab8ebd2bc7',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: '*2',
+    },
+  ],
+  version: '0.54:2',
+}
